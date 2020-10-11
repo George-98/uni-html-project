@@ -25,3 +25,10 @@ li a:hover {
 #homeImg {
 	width: 100%
 }
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkGrey;
+  color: white;
+}

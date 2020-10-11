@@ -9,4 +9,11 @@ window.addEventListener("load", function(){
 	 ' <li><a href="contact.html">Contact us</a></li>' +
 	'</ul>'
 	);
+	
+	document.querySelector('#footer').insertAdjacentHTML('beforebegin',
+		'<footer>' +
+		  '<p>Author: George Lee<br>' +
+		  '<a href="glee@example.com">glee@example.com</a></p>' +
+		'</footer>'
+	);
 });
