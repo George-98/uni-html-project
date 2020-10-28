@@ -152,9 +152,16 @@ form {
 }
 
 .titleStyle{
+	font-size: 2em;
+	font-family: Verdana, Geneva, sans-serif;
 	text-align: center;
 }
 
 .messageSent-text{
 	text-align: center;
+}
+
+.descriptionStyle{
+	    padding-left: 5vh;
+		padding-right: 5vh;
 }
