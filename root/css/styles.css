@@ -52,13 +52,17 @@ footer {
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
-  width: 100%;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  table-layout: fixed;
 }
 
 td, th {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
+  word-wrap: break-word;
 }
 
 tr:nth-child(even) {
