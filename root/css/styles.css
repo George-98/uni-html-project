@@ -40,12 +40,13 @@ li a:hover {
 #homeImg {
    height: 100%;
    width: 100%;
+   object-fit: cover;
 }
 
 footer {
   text-align: center;
-  padding: 3px;
-  background-color: DarkGrey;
+  padding: 10px;
+  background-color: #333;
   color: white;
 }
 
@@ -92,21 +93,21 @@ input[type=submit]:hover {
 }
 
 form {
-   padding: 15vh;
+   padding: 0 15vh 15vh 15vh;
 }
 
 .top-left {
 	font-family: "Nunito", sans-serif;
-        text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black; 
-        color: white;
+	text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black; 
+	color: white;
 	font-size: 4em;
-  position: absolute;
-  top: calc(70px + 20vh);
-  left: 20vh;
+	position: absolute;
+	top: calc(70px + 20vh);
+	left: 20vh;
 }
 
 .catalog {
-	padding: 10vh;
+	padding: 0 10vh 10vh 10vh;
 }
 
 .card {
@@ -143,8 +144,7 @@ form {
 }
 
 .cardName {
-	font-size: 2em;
-	font-family: Verdana, Geneva, sans-serif;
+	font-size: 2.5em;
 }
 
 .cardDescription {
@@ -156,8 +156,8 @@ form {
 }
 
 .titleStyle{
-	font-size: 2em;
-	font-family: Verdana, Geneva, sans-serif;
+	padding: 20px;
+	font-size: 3em;
 	text-align: center;
 }
 
@@ -168,4 +168,29 @@ form {
 .descriptionStyle{
 	    padding-left: 5vh;
 		padding-right: 5vh;
+}
+
+.text-block {
+	width: 50%;
+    position: absolute;
+    top: 100px;
+    left: 8%;
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    padding-left: 20px;
+}
+
+.container {
+  position: relative;
+  font-family: Arial;
+}
+
+h1{
+	font-size: 2em;
+    font-weight: bold;
+}
+
+p{
+	font-size: 1.2em;
 }
