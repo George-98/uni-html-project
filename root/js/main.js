@@ -1,11 +1,11 @@
 window.addEventListener("load", function(){
 	document.getElementById('header').innerHTML +=
-	'<ul>' +
-	 ' <li><a href="index.html">Home</a></li>' +
-	 ' <li><a href="in-service.html">In-service</a></li>' +
-	 ' <li><a href="retired.html">Retired</a></li>' +
-	 ' <li><a href="reference.html">References</a></li>' +
-	 ' <li><a href="contact.html">Contact us</a></li>' +
+	'<ul class="navigation">' +
+	 ' <li class="navigationItems"><a href="index.html">Home</a></li>' +
+	 ' <li class="navigationItems"><a href="in-service.html">In-service</a></li>' +
+	 ' <li class="navigationItems"><a href="retired.html">Retired</a></li>' +
+	 ' <li class="navigationItems"><a href="reference.html">References</a></li>' +
+	 ' <li class="navigationItems"><a href="contact.html">Contact us</a></li>' +
 	'</ul>'
 	;
 	
@@ -17,7 +17,10 @@ window.addEventListener("load", function(){
 	
 	if(window.location.href.match('message-sent.html')){
 		var params = getParamsObject();
-		document.getElementById("messageSentText").innerHTML = "Thank you " + params.firstname + " for your message we will send a confirmation email to " + params.email + ".";
+		document.getElementById("messageSentText").innerHTML =  "Thank you " + params.firstname + 
+																" for your message we will send a confirmation email to " 
+																+ params.email + ". You have opted " + params.marketing +
+																" for email marketing.";
 	}
 });
 

@@ -1,4 +1,4 @@
-ul {
+.navigation {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -7,13 +7,13 @@ ul {
   height: 100%;
 }
 
-li {
+.navigationItems {
   float: left;
   height: 100%;
   width: 15%;
 }
 
-li a {
+.navigationItems a {
   height: 100%;
   width: 100%;
   display: block;
@@ -24,7 +24,7 @@ li a {
   font-size: 1.2em;
 }
 
-li a:hover {
+.navigationItems a:hover {
   background-color: #111;
 }
 
@@ -89,7 +89,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #111;
 }
 
 form {
@@ -140,7 +140,7 @@ form {
 }
 
 .cardBttn:hover, .cardBttn:active {
-  background-color: #45a049;
+  background-color: #111;
 }
 
 .cardName {
@@ -192,5 +192,13 @@ h1{
 }
 
 p{
+	font-size: 1.2em;
+}
+
+h2{
+	font-size: 2em;
+}
+
+.factListItems{
 	font-size: 1.2em;
 }
