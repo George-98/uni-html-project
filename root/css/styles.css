@@ -1,99 +1,115 @@
-.navigation {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  height: 100%;
+h1 {
+	font-size: 2em;
+    font-weight: bold;
 }
 
-.navigationItems {
-  float: left;
-  height: 100%;
-  width: 15%;
+h2 {
+	font-size: 2em;
 }
 
-.navigationItems a {
-  height: 100%;
-  width: 100%;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 25px 16px;
-  text-decoration: none;
-  font-size: 1.2em;
-}
-
-.navigationItems a:hover {
-  background-color: #111;
-}
-
-#header {
-  height:70px;
-}
-
-#main {
-   width: 100%;
-   height: calc( 100vh - 70px );
-}
-
-#homeImg {
-   height: 100%;
-   width: 100%;
-   object-fit: cover;
+p {
+	font-size: 1.2em;
 }
 
 footer {
-  text-align: center;
-  padding: 10px;
-  background-color: #333;
-  color: white;
+	text-align: center;
+	padding: 10px;
+	background-color: #333;
+	color: white;
 }
 
 table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
-  table-layout: fixed;
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 80%;
+	margin: 0 10% 5% 10%;
+	table-layout: fixed;
 }
 
 td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-  word-wrap: break-word;
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+	word-wrap: break-word;
 }
 
 tr:nth-child(even) {
-  background-color: #dddddd;
+	background-color: #dddddd;
 }
 
 /* Style inputs */
 input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
 }
 
 input[type=submit] {
-  background-color: #333;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  cursor: pointer;
+	background-color: #333;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	cursor: pointer;
 }
 
 input[type=submit]:hover {
-  background-color: #111;
+	background-color: #111;
 }
 
 form {
-   padding: 0 15vh 15vh 15vh;
+	padding: 0 15vh 15vh 15vh;
+}
+
+#header {
+	height:70px;
+}
+
+#main {
+	width: 100%;
+	height: calc( 100vh - 70px );
+}
+
+#homeImg {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+#messageSentText {
+	text-align: center;
+}
+
+.navigation {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	height: 100%;
+}
+
+.navigationItems {
+	float: left;
+	height: 100%;
+	width: 15%;
+}
+
+.navigationItems a {
+	height: 100%;
+	width: 100%;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 25px 16px;
+	text-decoration: none;
+	font-size: 1.2em;
+}
+
+.navigationItems a:hover {
+	background-color: #111;
 }
 
 .top-left {
@@ -130,17 +146,17 @@ form {
 }
 
 .cardBttn {
-	  background-color: #333;
-	  color: white;
-	  padding: 14px 25px;
-	  text-align: center;
-	  text-decoration: none;
-	  display: inline-block;
-	  float: right;
+	background-color: #333;
+	color: white;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	float: right;
 }
 
 .cardBttn:hover, .cardBttn:active {
-  background-color: #111;
+	background-color: #111;
 }
 
 .cardName {
@@ -155,19 +171,15 @@ form {
 	font-family: "Lucida Console", Courier, monospace;
 }
 
-.titleStyle{
+.titleStyle {
 	padding: 20px;
 	font-size: 3em;
 	text-align: center;
 }
 
-#messageSentText{
-	text-align: center;
-}
-
-.descriptionStyle{
-	    padding-left: 5vh;
-		padding-right: 5vh;
+.descriptionStyle {
+	padding-left: 5vh;
+	padding-right: 5vh;
 }
 
 .text-block {
@@ -182,23 +194,15 @@ form {
 }
 
 .container {
-  position: relative;
-  font-family: Arial;
+	position: relative;
+	font-family: Arial;
 }
 
-h1{
-	font-size: 2em;
-    font-weight: bold;
-}
-
-p{
+.factListItems {
 	font-size: 1.2em;
+	padding: 10px;
 }
 
-h2{
-	font-size: 2em;
-}
-
-.factListItems{
-	font-size: 1.2em;
+.websiteInfo {
+	padding-right: 15%;
 }
