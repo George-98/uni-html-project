@@ -1,5 +1,7 @@
+/* Section for element styles */
+
 h1 {
-	font-size: 2em;
+	font-size: 3em;
     font-weight: bold;
 }
 
@@ -63,6 +65,8 @@ form {
 	padding: 0 15vh 15vh 15vh;
 }
 
+/* Section for Ids */
+
 #header {
 	height:70px;
 }
@@ -81,6 +85,8 @@ form {
 #messageSentText {
 	text-align: center;
 }
+
+/* Section for classes */
 
 .navigation {
 	list-style-type: none;
@@ -122,9 +128,15 @@ form {
 	left: 20vh;
 }
 
-.catalog {
+.catalogue {
 	padding: 0 10vh 10vh 10vh;
 }
+
+/* 
+Card is the sections which
+helps split the image and 
+details into 2 columns  
+*/
 
 .card {
 	width: 100%;
@@ -171,16 +183,21 @@ form {
 	font-family: "Lucida Console", Courier, monospace;
 }
 
+/* Used on each page to style the title */
+
 .titleStyle {
 	padding: 20px;
-	font-size: 3em;
 	text-align: center;
 }
+
+/* Used on the home page */
 
 .descriptionStyle {
 	padding-left: 5vh;
 	padding-right: 5vh;
 }
+
+/* Used on the home page */
 
 .text-block {
 	width: 50%;
@@ -202,6 +219,8 @@ form {
 	font-size: 1.2em;
 	padding: 10px;
 }
+
+/* Used on the home page */
 
 .websiteInfo {
 	padding-right: 15%;
